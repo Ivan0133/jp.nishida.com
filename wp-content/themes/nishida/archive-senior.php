@@ -5,9 +5,16 @@
 global $wpdb, $table_prefix, $post;
 $the_query = new WP_Query(
             array(
-                'post_type' => 'news',
+                'post_type' => 'senior',
                 'post_status' => 'publish',
-                'posts_per_page' => 3,                
+                'posts_per_page' => 6,
+                'tax_query' => array(
+                    array(
+                        'taxonomy' => 'senior-category',
+                        'field' => 'name',
+                        'terms' => 'New',
+                    ),
+                ),               
             )
         );        
 get_header();?>
@@ -87,72 +94,26 @@ get_header();?>
                     <p class="tab-panel__item__name">新卒入社</p>
                     <p class="tab-panel__item__comment">地元高校や松山の建築関連専門学校から入社した方など</p>
                     <div class="tab-panel__item__list">
+                    <?php 
+                        if ($the_query->have_posts()){
+                            while( $the_query->have_posts() ){
+                                $the_query->the_post();                                                        
+                        ?>
                         <div class="list__item">
                             <p class="item__badge">
                                 新 卒<br>
                                 採 用
                             </p>
                             <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-1.png" alt="">
+                                <?php echo get_the_post_thumbnail(); ?>
                             </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
+                            <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
+                            <p class="item__job"><?php the_title();?></p>
                         </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-2.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-3.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-1.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-2.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-3.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
+                        <?php 
+                            }}
+                            wp_reset_postdata();
+                        ?>
                     </div>
                 </div>
                 <div class="tab-panel__item container" id="tab-panel2">
@@ -160,72 +121,42 @@ get_header();?>
                     <p class="tab-panel__item__name">中途入社</p>
                     <p class="tab-panel__item__comment">地元高校や松山の建築関連専門学校から入社した方など</p>
                     <div class="tab-panel__item__list">
+                        <?php
+                            $the_query = new WP_Query(
+                                array(
+                                    'post_type' => 'senior',
+                                    'post_status' => 'publish',
+                                    'posts_per_page' => 6,
+                                    'tax_query' => array(
+                                        array(
+                                            'taxonomy' => 'senior-category',
+                                            'field' => 'name',
+                                            'terms' => 'Mid',
+                                        ),
+                                    ),               
+                                )
+                            );
+                            if ($the_query->have_posts()){
+                                while( $the_query->have_posts() ){
+                                    $the_query->the_post();
+
+                        ?>
+
                         <div class="list__item">
                             <p class="item__badge">
-                                新 卒<br>
+                                中 途<br>
                                 採 用
                             </p>
                             <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-3.png" alt="">
+                                <?php echo get_the_post_thumbnail(); ?>
                             </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
+                            <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
+                            <p class="item__job"><?php the_title();?></p>
                         </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-2.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-1.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-3.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-2.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
-                        <div class="list__item">
-                            <p class="item__badge">
-                                新 卒<br>
-                                採 用
-                            </p>
-                            <figure class="item__img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/senior/person-1.png" alt="">
-                            </figure>
-                            <p class="item__name">山田　太郎</p>
-                            <p class="item__job">部署名テキスト  入社年</p>
-                        </div>
+                        <?php
+                            }}
+                            wp_reset_postdata();
+                        ?>
                     </div>
                 </div>
             </div>

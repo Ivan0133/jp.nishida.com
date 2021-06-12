@@ -86,6 +86,7 @@ get_header();?>
                 </div>
                 <?php
                 }}
+                wp_reset_postdata();
                 ?>               
             </div>
             <a class="load-more-btn text-en">
