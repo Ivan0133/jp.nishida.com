@@ -22,7 +22,6 @@ jQuery(document).ready(function ($) {
                 $('.news_seg_id').val(res['next']);
                 $('.news_w').html(res['content']);  
                 $('.load-more-btn').addClass(res['end']);
-
             }
         });
     });
