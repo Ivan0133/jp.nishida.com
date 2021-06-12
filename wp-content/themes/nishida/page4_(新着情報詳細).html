@@ -1,0 +1,388 @@
+<!-- HTMLコード -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>コーディングデータ</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- javascript -->
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img class="pc-logo" src="./assets/img/logo-center.png" alt="">
+                <img class="tb-show" src="./assets/img/favicon.ico" alt="">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-new-info-submenu">新着情報</a>
+                    <div class="new-info-submenu">
+                        <ul>
+                            <li><a href="#">新卒採用</a></li>
+                            <li><a href="#">中途採用</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">採用情報</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-voice-submenu">先輩の声</a>
+                    <div class="voice-submenu">
+                        <ul>
+                            <li><a href="#">新卒入社</a></li>
+                            <li><a href="#">中途入社</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">QA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">募集要項</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">選考フロー</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">お問い合わせ</a>
+                </li>
+                <li class="nav-item--official">
+                    <a href="https://nishidakosan.co.jp/" target="_blank">
+                        <span>OFFICIAL&nbsp;SITE</span>
+                        <img src="./assets/img/official-site.png" alt="">
+                    </a>
+
+                </li>
+                <li class="nav-item--entry">
+                    <a href="#">ENTRY</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="entry-block">
+            <a href="javascript:;" class="entry__close">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="entry__title">
+                <div class="entry__title__en">ENTRY</div>
+                <div class="entry__title__jp">エントリー</div>
+            </div>
+            <div class="entry__content">
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-1.png" alt="">
+                    <div class="entry__content__item__title">新卒採用</div>
+                    <div class="entry__content__item__detail">技術的なことは入社後でかまわない。新しい事に意欲的にチャレンジすれば、仲間と一緒にきっと大きく成長できる。
+                    </div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                        <img src="./assets/img/entry-mark.png" alt="">
+                    </div>
+                </div>
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-2.png" alt="">
+                    <div class="entry__content__item__title">中途採用</div>
+                    <div class="entry__content__item__detail">これまでの経験や資格を活かし、仕事も家庭も両立することができる。県内の方だけでなくUIJターンも歓迎。</div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/facebook-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/twitter-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/instagram-blue.png" alt="">
+                </a>
+            </div>
+        </div>
+        <section class="information-detail">
+            <div class="detail__date">2021.03.01</div>
+            <div class="detail__title">【新卒】営業職・研究職のWEB会社説明会を開催いたします。</div>
+            <div class="detail__social-share">
+                <span>Share</span>
+                <div class="line"></div>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/facebook.png" alt="">
+                </a>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/twitter.png" alt="">
+                </a>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/line.png" alt="">
+                </a>
+            </div>
+            <div class="detail__img">
+                <figure>
+                    <img src="./assets/img/information-detail/main.png" alt="">
+                </figure>
+            </div>
+            <p class="detail__comment">
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります。
+                <br><br>
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります。
+                <br><br>
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります
+                <br><br><br>
+
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります
+                <br><br>
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります
+                <br><br><br>
+
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります。
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります
+                <br><br><br>
+
+                新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります新着情報内容が入ります。
+            </p>
+            <a href="#" class="detail__return">
+                ← 一覧へ戻る
+            </a>
+            <div class="detail__social-share">
+                <span>Share</span>
+                <div class="line"></div>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/facebook.png" alt="">
+                </a>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/twitter.png" alt="">
+                </a>
+                <a class="detail__social-item" href="#">
+                    <img src="./assets/img/information-detail/line.png" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="carousel container">
+            <div class="logo-background">
+                <img src="./assets/img/co-logo-blue.png" alt="">
+            </div>
+            <div class="hero-carousel">
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-1.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        中 途<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-2.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-3.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-1.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        中 途<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-2.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-3.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+            </div>
+        </section>
+        <section class="entry container">
+            <div class="entry__btn-group">
+                <a href="#" class="entry__btn-group__item">募集要項</a>
+                <a href="#" class="entry__btn-group__item text-en">QA</a>
+                <a href="#" class="entry__btn-group__item">選考フロー</a>
+            </div>
+            <div class="entry__blue">
+                <div class="entry__button">
+                    <a href="#" class="text-en">ENTRY</a>
+                    <img src="./assets/img/entry-mark.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-main top-footer">
+            <div class="footer-contact-info">
+                <img src="./assets/img/logo-center.png" alt="">
+                <div class="detail">
+                    <div class="address">〒795-8603 愛媛県大洲市徳森248</div>
+                    <div class="tel"><span>TEL.</span>(0893)25-0211</div>
+                    <div class="fax"><span>FAX.</span> (0893)25-0554</div>
+                    <div class="mail"><span>MAIL.</span> soumu@nishidakosan.co.jp</div>
+                </div>
+                <a target="_blank" href="https://nishidakosan.co.jp/" class="official">OFFICIAL SITE</a>
+            </div>
+            <div class="footer-quick-link">
+                <div class="footer-new-info">
+                    <div class="new-info-item"><a href="#">新着情報</a></div>
+                    <div class="new-info-item"><a href="#">新卒採用</a></div>
+                    <div class="new-info-item"><a href="#">中途採用</a></div>
+                </div>
+                <div class="footer-spec-content">
+                    <div class="spec-content-title">スペシャルコンテンツ</div>
+                    <div class="spec-content-detail">
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>1分でわかる西田興産</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>求める人物像</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>プロジェクトストーリー</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>WEB動画説明会</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>独身寮の紹介</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>西田興産周辺の生活マップ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <div class="footer-link-item">
+                        <a href="#">先輩の声</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">QA</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">募集要項</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">選考フロー</a>
+                    </div>
+                </div>
+                <div class="footer-entry">
+                    <div class="footer-entry-title">エントリー</div>
+                    <div class="arrow-link-item">
+                        <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>新卒採用エントリー</a>
+                    </div>
+                    <div class="arrow-link-item">
+                        <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>中途採用エントリー</a>
+                    </div>
+                    <div class="footer-social-link">
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/instagram.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quick-link-sp sp">
+            <table>
+                <tr>
+                    <td colspan="2"><a href="#">新着情報</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">新卒採用</a></td>
+                    <td><a href="#">中途採用</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1分でわかる西田興産</a></td>
+                    <td><a href="#">求める人物像</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">プロジェクトストーリー</a></td>
+                    <td><a href="#">WEB動画説明会</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">独身寮の紹介</a></td>
+                    <td><a href="#">西田興産周辺の生活マップ</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">先輩の声</a></td>
+                    <td><a href="#">QA</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">募集要項</a></td>
+                    <td><a href="#">選考フロー</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-copyright">© ALL RIGHTS RESERVED. NISHIDA INDUSTRY INC.</div>
+    </footer>
+</body>
+
+</html>

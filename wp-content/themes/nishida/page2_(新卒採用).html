@@ -1,0 +1,575 @@
+<!-- HTMLコード -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>コーディングデータ</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- javascript -->
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img class="pc-logo" src="./assets/img/logo-center.png" alt="">
+                <img class="tb-show" src="./assets/img/favicon.ico" alt="">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-new-info-submenu">新着情報</a>
+                    <div class="new-info-submenu">
+                        <ul>
+                            <li><a href="#">新卒採用</a></li>
+                            <li><a href="#">中途採用</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">採用情報</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-voice-submenu">先輩の声</a>
+                    <div class="voice-submenu">
+                        <ul>
+                            <li><a href="#">新卒入社</a></li>
+                            <li><a href="#">中途入社</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">QA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">募集要項</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">選考フロー</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">お問い合わせ</a>
+                </li>
+                <li class="nav-item--official">
+                    <a href="https://nishidakosan.co.jp/" target="_blank">
+                        <span>OFFICIAL&nbsp;SITE</span>
+                        <img src="./assets/img/official-site.png" alt="">
+                    </a>
+
+                </li>
+                <li class="nav-item--entry">
+                    <a href="#">ENTRY</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="entry-block">
+            <a href="javascript:;" class="entry__close">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="entry__title">
+                <div class="entry__title__en">ENTRY</div>
+                <div class="entry__title__jp">エントリー</div>
+            </div>
+            <div class="entry__content">
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-1.png" alt="">
+                    <div class="entry__content__item__title">新卒採用</div>
+                    <div class="entry__content__item__detail">技術的なことは入社後でかまわない。新しい事に意欲的にチャレンジすれば、仲間と一緒にきっと大きく成長できる。
+                    </div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                        <img src="./assets/img/entry-mark.png" alt="">
+                    </div>
+                </div>
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-2.png" alt="">
+                    <div class="entry__content__item__title">中途採用</div>
+                    <div class="entry__content__item__detail">これまでの経験や資格を活かし、仕事も家庭も両立することができる。県内の方だけでなくUIJターンも歓迎。</div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/facebook-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/twitter-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/instagram-blue.png" alt="">
+                </a>
+            </div>
+        </div>
+        <section class="banner">
+            <figure class="background-img">
+                <img src="./assets/img/recruit/banner-recruit.png" alt="">
+                <div class="breadcrumb">採用情報ホーム / 新卒採用</div>
+            </figure>
+            <div class="banner-title">
+                RECRUITEMENT
+                <div class="sub-title">新卒採用</div>
+            </div>
+        </section>
+        <section class="information">
+            <div class="content">
+                <div class="info__sign">INFORMATION</div>
+                <div class="info__title">インフォメーション</div>
+                <div class="info__content">
+                    <div class="info__content__item">
+                        <div class="info__content__item__date">2021.02.21</div>
+                        <div class="info__content__item__detail">【新卒】営業職・研究職のWEB会社説明会を開催いたします。</div>
+                    </div>
+                    <div class="info__content__item">
+                        <div class="info__content__item__date">2021.02.21</div>
+                        <div class="info__content__item__detail">【新卒】営業職・研究職のWEB会社説明会を開催いたします。</div>
+                    </div>
+                    <div class="info__content__item">
+                        <div class="info__content__item__date">2021.02.21</div>
+                        <div class="info__content__item__detail">【新卒】営業職・研究職のWEB会社説明会を開催いたします。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="internship">
+            <div class="inter__header">
+                <figure class="inter__header__img">
+                    <img src="./assets/img/recruit/internship.png" alt="">
+                </figure>
+                <div class="inter__header__text">
+                    <div class="inter__header__text__main">INTERNSHIP</div>
+                    <div class="inter__header__text__sub">インターンシップ </div>
+                </div>
+            </div>
+            <div class="inter__content">
+                <div class="inter__content__title">
+                    新卒採用者向け <br>
+                    インターン・イベントを開催予定。
+                </div>
+                <div class="inter__content__detail">
+                    建設などのモノづくりは、何十人もの人たちと一緒に一つのゴールを目指す仕事です。自分の考えをしっかりと持ちながらも物事を柔軟に考えられる方や、新しい事に意欲的にチャレンジできる方であれば、仲間と一緒にきっと大きく成長できます。技術的なことは入社後でも十分身に付きますし、資格取得のための費用負担などスキルアップのためのサポート体制もしっかりと整っていますので、安心してチャレンジしてください。誠実に責任を持って取り組めば、どんな仕事でも必ず面白さを発見でき「やりがい」へと繋がります。私たちと「共に働く」喜びを感じてみませんか？
+                </div>
+            </div>
+            <div class="inter__imgflow">
+                <figure class="inter__imgflow__item">
+                    <img src="./assets/img/recruit/img-bar-1.png" alt="">
+                </figure>
+                <figure class="inter__imgflow__item">
+                    <img src="./assets/img/recruit/img-bar-2.png" alt="">
+                </figure>
+                <figure class="inter__imgflow__item">
+                    <img src="./assets/img/recruit/img-bar-3.png" alt="">
+                </figure>
+                <figure class="inter__imgflow__item">
+                    <img src="./assets/img/recruit/img-bar-4.png" alt="">
+                </figure>
+                <figure class="inter__imgflow__item">
+                    <img src="./assets/img/recruit/img-bar-5.png" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="education">
+            <div class="edu__header">
+                <figure class="edu__header__img">
+                    <img src="./assets/img/recruit/nurtring.png" alt="">
+                </figure>
+                <div class="edu__header__text">
+                    <div class="edu__header__text__main">NURTRING</div>
+                    <div class="edu__header__text__sub">人材育成</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="edu__content">
+                    <div class="edu__content__title text-left m-edu__title-1">
+                        <div class="edu__content__title__main">成長への支援は惜しみません。</div>
+                        <div class="edu__content__title__sub">資格取得への報奨金など、社員個々人の力を伸ばしていくための制度を整えています。</div>
+                    </div>
+                    <div class="edu__content__list">
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/edit.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">新人研修</span>
+                            </div>
+                            <div class="item__main">
+                                <span class="item__main__number">6</span>
+                                <span class="item__main__text">ヶ月</span>
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/rewards.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">資格取得報奨金</span>
+                            </div>
+                            <div class="item__main">
+                                <span class="item__main__text">最大</span>
+                                <span class="item__main__number">20</span>
+                                <span class="item__main__text">万円</span>
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/people.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">OJT制度</span>
+                            </div>
+                            <div class="item__main">
+                                <div class="item__main__text">あり</div>
+                            </div>
+                            <div class="item__comment">
+                                研修後もOJTを行い、実務を通じて学びを支援します。皆さんに近い立場からのサポートで、業務だけでなく会社に対する不安も解消できます。
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/message.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">キャリアコンサルティング制度</span>
+                            </div>
+                            <div class="item__main">
+                                <div class="item__main__text">あり</div>
+                            </div>
+                            <div class="item__comment">
+                                1年に1度、上司と面談を実施。これまでのキャリアを振り返り、将来どうなりたいか、その実現に向けてどう進めていくかを一緒に考えます。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edu__content__title text-center m-edu__title-2">
+                        <div class="edu__content__title__main">プライベートの充実を推奨。</div>
+                        <div class="edu__content__title__sub">社員一人ひとりが心地よく働くための制度と、それを実行する社風が根付いています。</div>
+                    </div>
+                    <div class="edu__content__list">
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/time.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">残業時間／月</span>
+                            </div>
+                            <div class="item__main">
+                                <span class="item__main__number">13</span>
+                                <span class="item__main__text">時間</span>
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/music.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">有給休暇取得率</span>
+                            </div>
+                            <div class="item__main">
+                                <span class="item__main__number">79</span>
+                                <span class="item__main__text">%</span>
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/people.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">特別連続休暇</span>
+                            </div>
+                            <div class="item__main">
+                                <div class="item__main__text">年間</div>
+                                <div class="item__main__number">5</div>
+                                <div class="item__main__text">日</div>
+                            </div>
+                        </div>
+                        <div class="edu__content__list__item">
+                            <div class="item__badge">
+                                <figure class="item__badge__img">
+                                    <img src="./assets/img/badge/heart.png" alt="">
+                                </figure>
+                                <span class="item__badge__name">ボランティア休暇</span>
+                            </div>
+                            <div class="item__main">
+                                <div class="item__main__text">年間</div>
+                                <div class="item__main__number">5</div>
+                                <div class="item__main__text">日</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vision">
+            <div class="vision__header">
+                <figure class="vision__header__img">
+                    <img src="./assets/img/recruit/vision.png" alt="">
+                </figure>
+                <div class="vision__header__text">
+                    <div class="vision__header__text__main">VISION</div>
+                    <div class="vision__header__text__sub">求める人物像 </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="vision__content">
+                    <div class="vision__content__item">
+                        <figure class="item__img">
+                            <img src="./assets/img/recruit/girl-1.png" alt="">
+                        </figure>
+                        <div class="item__main">
+                            <div class="item__main__title">やり抜く力と謙虚さを兼ね備えた人が成長できる</div>
+                            <div class="item__main__detail">
+                                建設業は、成熟期を迎えた今の日本経済では飛躍的な拡大は難しい状況ですが、人々の生活を良くしたり、地域の防災や災害復旧活動など、なくてはならないものです。選ばれ続けるためには技術力や製品の品質を高める必要があると考えます。そのためには社員一人ひとりの成長が必要不可欠です。西田興産では、自分の考えをしっかりと持ちながらも、物事を柔軟に考えられる、やり抜く力と謙虚さをバランスよく持つことを意識する人が成長できると考えています。建設などのものづくりは何十人もの人たちと一つのゴールを目指すものです。技術的なことは入社後でも十分身に付きます。資格取得のための費用負担など技術向上のためのバックアップ体制も用意しています。また、勉強やサークルなど何でもいいので、学生時代に頑張ったこと、やりとげたことがある人は、その経験が生かさせることでしょう。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vision__content__item">
+                        <figure class="item__img">
+                            <img src="./assets/img/recruit/girl-2.png" alt="">
+                        </figure>
+                        <div class="item__main">
+                            <div class="item__main__title">やり抜く力と謙虚さを兼ね備えた人が成長できる</div>
+                            <div class="item__main__detail">
+                                建設業は、成熟期を迎えた今の日本経済では飛躍的な拡大は難しい状況ですが、人々の生活を良くしたり、地域の防災や災害復旧活動など、なくてはならないものです。選ばれ続けるためには技術力や製品の品質を高める必要があると考えます。そのためには社員一人ひとりの成長が必要不可欠です。西田興産では、自分の考えをしっかりと持ちながらも、物事を柔軟に考えられる、やり抜く力と謙虚さをバランスよく持つことを意識する人が成長できると考えています。建設などのものづくりは何十人もの人たちと一つのゴールを目指すものです。技術的なことは入社後でも十分身に付きます。資格取得のための費用負担など技術向上のためのバックアップ体制も用意しています。また、勉強やサークルなど何でもいいので、学生時代に頑張ったこと、やりとげたことがある人は、その経験が生かさせることでしょう。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vision__content__item">
+                        <figure class="item__img">
+                            <img src="./assets/img/recruit/girl-3.png" alt="">
+                        </figure>
+                        <div class="item__main">
+                            <div class="item__main__title">やり抜く力と謙虚さを兼ね備えた人が成長できる</div>
+                            <div class="item__main__detail">
+                                建設業は、成熟期を迎えた今の日本経済では飛躍的な拡大は難しい状況ですが、人々の生活を良くしたり、地域の防災や災害復旧活動など、なくてはならないものです。選ばれ続けるためには技術力や製品の品質を高める必要があると考えます。そのためには社員一人ひとりの成長が必要不可欠です。西田興産では、自分の考えをしっかりと持ちながらも、物事を柔軟に考えられる、やり抜く力と謙虚さをバランスよく持つことを意識する人が成長できると考えています。建設などのものづくりは何十人もの人たちと一つのゴールを目指すものです。技術的なことは入社後でも十分身に付きます。資格取得のための費用負担など技術向上のためのバックアップ体制も用意しています。また、勉強やサークルなど何でもいいので、学生時代に頑張ったこと、やりとげたことがある人は、その経験が生かさせることでしょう。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carousel container">
+            <div class="logo-background">
+                <img src="./assets/img/co-logo-blue.png" alt="">
+            </div>
+            <div class="hero-carousel">
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-1.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        中 途<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-2.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-3.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-1.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        中 途<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-2.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="badge">
+                        新 卒<br>
+                        採 用
+                    </div>
+                    <img src="./assets/img/person-3.png" alt="">
+                    <div class="person-name">山田　太郎</div>
+                    <div class="course-and-date">部署名テキスト 入社年</div>
+                </div>
+            </div>
+        </section>
+        <section class="entry container">
+            <div class="entry__btn-group">
+                <a href="#" class="entry__btn-group__item">募集要項</a>
+                <a href="#" class="entry__btn-group__item text-en">QA</a>
+                <a href="#" class="entry__btn-group__item">選考フロー</a>
+            </div>
+            <div class="entry__blue">
+                <div class="entry__button">
+                    <a href="#" class="text-en">ENTRY</a>
+                    <img src="./assets/img/entry-mark.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-main top-footer">
+            <div class="footer-contact-info">
+                <img src="./assets/img/logo-center.png" alt="">
+                <div class="detail">
+                    <div class="address">〒795-8603 愛媛県大洲市徳森248</div>
+                    <div class="tel"><span>TEL.</span>(0893)25-0211</div>
+                    <div class="fax"><span>FAX.</span> (0893)25-0554</div>
+                    <div class="mail"><span>MAIL.</span> soumu@nishidakosan.co.jp</div>
+                </div>
+                <a target="_blank" href="https://nishidakosan.co.jp/" class="official">OFFICIAL SITE</a>
+            </div>
+            <div class="footer-quick-link">
+                <div class="footer-new-info">
+                    <div class="new-info-item"><a href="#">新着情報</a></div>
+                    <div class="new-info-item"><a href="#">新卒採用</a></div>
+                    <div class="new-info-item"><a href="#">中途採用</a></div>
+                </div>
+                <div class="footer-spec-content">
+                    <div class="spec-content-title">スペシャルコンテンツ</div>
+                    <div class="spec-content-detail">
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>1分でわかる西田興産</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>求める人物像</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>プロジェクトストーリー</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>WEB動画説明会</a>
+                        </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>独身寮の紹介</a>
+                            </div>
+                        <div class="arrow-link-item">
+                            <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>西田興産周辺の生活マップ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <div class="footer-link-item">
+                        <a href="#">先輩の声</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">QA</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">募集要項</a>
+                    </div>
+                    <div class="footer-link-item">
+                        <a href="#">選考フロー</a>
+                    </div>
+                </div>
+                <div class="footer-entry">
+                    <div class="footer-entry-title">エントリー</div>
+                    <div class="arrow-link-item">
+                        <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>新卒採用エントリー</a>
+                    </div>
+                    <div class="arrow-link-item">
+                        <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i>中途採用エントリー</a>
+                    </div>
+                    <div class="footer-social-link">
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social__item">
+                            <a href="#">
+                                <img src="./assets/img/social/instagram.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quick-link-sp sp">
+            <table>
+                <tr>
+                    <td colspan="2"><a href="#">新着情報</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">新卒採用</a></td>
+                    <td><a href="#">中途採用</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1分でわかる西田興産</a></td>
+                    <td><a href="#">求める人物像</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">プロジェクトストーリー</a></td>
+                    <td><a href="#">WEB動画説明会</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">独身寮の紹介</a></td>
+                    <td><a href="#">西田興産周辺の生活マップ</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">先輩の声</a></td>
+                    <td><a href="#">QA</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">募集要項</a></td>
+                    <td><a href="#">選考フロー</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-copyright">© ALL RIGHTS RESERVED. NISHIDA INDUSTRY INC.</div>
+    </footer>
+</body>
+
+</html>
