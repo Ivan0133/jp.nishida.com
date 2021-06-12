@@ -104,11 +104,13 @@ get_header();?>
                                 新 卒<br>
                                 採 用
                             </p>
-                            <figure class="item__img">
-                                <?php echo get_the_post_thumbnail(); ?>
-                            </figure>
-                            <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
-                            <p class="item__job"><?php the_title();?></p>
+                            <a href="<?php echo get_post_permalink();?>" target="blank">
+                                <figure class="item__img">
+                                    <?php echo get_the_post_thumbnail(); ?>
+                                </figure>
+                                <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
+                                <p class="item__job"><?php the_title();?></p>
+                            </a>
                         </div>
                         <?php 
                             }}
@@ -147,11 +149,13 @@ get_header();?>
                                 中 途<br>
                                 採 用
                             </p>
-                            <figure class="item__img">
-                                <?php echo get_the_post_thumbnail(); ?>
-                            </figure>
-                            <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
-                            <p class="item__job"><?php the_title();?></p>
+                            <a href="<?php echo get_post_permalink();?>" target="blank">
+                                <figure class="item__img">
+                                    <?php echo get_the_post_thumbnail(); ?>
+                                </figure>
+                                <p class="item__name"><?php echo get_post_meta($post->ID, 'name', true);?></p>
+                                <p class="item__job"><?php the_title();?></p>
+                            </a>
                         </div>
                         <?php
                             }}
