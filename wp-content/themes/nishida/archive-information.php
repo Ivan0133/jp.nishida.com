@@ -77,12 +77,13 @@ get_header();?>
                         $the_query->the_post();                        
                         $category = get_the_terms( $post->ID, 'category' );                        
                 ?>
-                <figure class="list__item">
+                <div class="list__item">
                     <a href="<?php echo $post->guid;?>">
-                    <img src="<?php echo get_the_post_thumbnail_url();?>" alt="thumbnail">
-                    <p class="list__item__text">【<?php echo $category[0]->name;?>】<?php echo $post->post_title;?></p>
-                    <p class="list__item__date"><?php echo get_the_date( ' yy.m.d', $post->ID );?></p>
-                </figure>
+                        <img src="<?php echo get_the_post_thumbnail_url();?>" alt="thumbnail">
+                        <p class="list__item__text">【<?php echo $category[0]->name;?>】<?php echo $post->post_title;?></p>
+                        <p class="list__item__date"><?php echo get_the_date( ' yy.m.d', $post->ID );?></p>
+                    </a>
+                </div>
                 <?php
                 }}
                 ?>               
