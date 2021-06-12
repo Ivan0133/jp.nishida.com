@@ -70,7 +70,7 @@ get_header();?>
             </div>
         </section>
         <section class="information-list container">
-            <div class="list">
+            <div class="list news_w">
                 <?php 
                 if ($the_query->have_posts()){
                     while( $the_query->have_posts() ){
@@ -88,8 +88,9 @@ get_header();?>
                 }}
                 ?>               
             </div>
-            <a class="load-more-btn text-en" href="#">
+            <a class="load-more-btn text-en">
                 More
+                <input type="hidden" class="news_seg_id" value="1">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/plus.png" alt="">
             </a>
         </section>

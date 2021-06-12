@@ -1,0 +1,5 @@
+[12-Jun-2021 11:36:27 UTC] PHP Parse error:  syntax error, unexpected '}' in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 41
+[12-Jun-2021 11:39:41 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
+[12-Jun-2021 11:40:32 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
+[12-Jun-2021 11:40:55 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
+[12-Jun-2021 11:45:16 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
