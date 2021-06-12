@@ -75,13 +75,13 @@ get_header();?>
                 if ($the_query->have_posts()){
                     while( $the_query->have_posts() ){
                         $the_query->the_post();                        
-                        $category = get_the_terms( $post->ID, 'category' );                        
+                        //$category = get_the_terms( $post->ID, 'category' );                        
                 ?>
                 <div class="list__item">
-                    <a href="<?php echo $post->guid;?>">
-                        <img src="<?php echo get_the_post_thumbnail_url();?>" alt="thumbnail">
-                        <p class="list__item__text">【<?php echo $category[0]->name;?>】<?php echo $post->post_title;?></p>
-                        <p class="list__item__date"><?php echo get_the_date( ' yy.m.d', $post->ID );?></p>
+                    <a href="<?php echo get_post_permalink();?>" target="blank">
+                        <?php echo get_the_post_thumbnail(); ?>
+                        <p class="list__item__text">【<?php echo get_the_category()[0]->name; ?>】<?php the_title();?></p>
+                        <p class="list__item__date"><?php the_modified_time('Y.m.d'); ?></p>
                     </a>
                 </div>
                 <?php

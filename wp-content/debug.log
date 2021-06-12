@@ -3,3 +3,21 @@
 [12-Jun-2021 11:40:32 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
 [12-Jun-2021 11:40:55 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
 [12-Jun-2021 11:45:16 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 15:32:36 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 15:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpb_set_post_views() in D:\project\jp.nishida.com\wp-content\themes\nishida\single-news.php:7
+Stack trace:
+#0 D:\project\jp.nishida.com\wp-includes\template-loader.php(106): include()
+#1 D:\project\jp.nishida.com\wp-blog-header.php(19): require_once('D:\\project\\jp.n...')
+#2 D:\project\jp.nishida.com\index.php(17): require('D:\\project\\jp.n...')
+#3 {main}
+  thrown in D:\project\jp.nishida.com\wp-content\themes\nishida\single-news.php on line 7
+[12-Jun-2021 16:03:34 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:03:54 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:04:46 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:05:30 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:07:38 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:10:19 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
+[12-Jun-2021 16:11:29 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
+[12-Jun-2021 16:11:58 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
+[12-Jun-2021 16:17:49 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
+[12-Jun-2021 16:18:21 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46

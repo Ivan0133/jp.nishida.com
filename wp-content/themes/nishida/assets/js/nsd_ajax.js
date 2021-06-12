@@ -5,7 +5,6 @@ jQuery(document).ready(function ($) {
             "action": "nsd_render_news",
             "news_seg_id": news_seg_id
         };
-
 		let request = jQuery.param(data);
         jQuery.ajax({
             type: 'get',

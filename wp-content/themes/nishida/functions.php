@@ -23,14 +23,13 @@ function nsd_render_news(){
         if ($the_query->have_posts()){
             ob_start();
             while( $the_query->have_posts() ){
-                $the_query->the_post();                        
-                $category = get_the_terms( $post->ID, 'category' );                                        
+                $the_query->the_post();                                       
                 ?>
                 <div class="list__item">
-                    <a href="<?php echo $post->guid;?>">
-                        <img src="<?php echo get_the_post_thumbnail_url();?>" alt="thumbnail">
-                        <p class="list__item__text">【<?php echo $category[0]->name;?>】<?php echo $post->post_title;?></p>
-                        <p class="list__item__date"><?php echo get_the_date( ' yy.m.d', $post->ID );?></p>
+                    <a href="<?php echo get_post_permalink();?>" target="blank">
+                        <?php echo get_the_post_thumbnail(); ?>
+                        <p class="list__item__text">【<?php echo get_the_category()[0]->name; ?>】<?php the_title();?></p>
+                        <p class="list__item__date"><?php the_modified_time('Y.m.d'); ?></p>
                     </a>
                 </div>
                 <?php                       
@@ -53,5 +52,19 @@ function nsd_render_news(){
         }
     }
 }
+function wpb_set_post_views($postID) {
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    }else{
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
+}
+
+remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 
