@@ -1556,7 +1556,7 @@ section.interview .tabs .tab__item:hover {
 section.interview .tab-panels {
   position: relative;
   margin-bottom: 100px;
-  z-index: -1;
+  z-index: 0;
 }
 section.interview .tab-panels::before {
   content: "";

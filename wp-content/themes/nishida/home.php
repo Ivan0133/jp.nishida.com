@@ -3,6 +3,17 @@
 * Template Name: home
 */
 get_header();?>
+<?php 
+    global $wpdb, $table_prefix, $post;
+    $the_query = new WP_Query(
+                array(
+                    'post_type' => 'news',
+                    'post_status' => 'publish',
+                    'posts_per_page' => 1,                
+                )
+    );
+    ?>  
+
     <main>
         <div class="entry-block">
             <a href="javascript:;" class="entry__close">
@@ -58,22 +69,32 @@ get_header();?>
         <section class="category top-container">
             <div class="section-content">
                 <div class="category-search">
-                    <div class="category-title">
-                        <span class="category-date">2020.12.10</span>
-                        <span class="category-text">カテゴリ名</span>
+                    <?php 
+                    if ($the_query->have_posts()){
+                        while( $the_query->have_posts() ){
+                            $the_query->the_post(); 
+                    ?>
+                    <a href="<?php echo get_post_permalink();?>" target="blank">
+                        <div class="category-title">
+                            <span class="category-date"><?php the_modified_time('Y'); ?></span>
+                            <span class="category-text"><?php echo get_the_category()[0]->name; ?></span>
+                        </div>                    
+                        <div class="news-title"><?php the_title();?></div>        
+                    </a>            
+                    <?php
+                        }}
+                    ?>
                     </div>
-                    <input type="text" class="category-input" placeholder="タイトルテキストテキストテキストテキストテキストテキスト…" />
-                </div>
                 <div class="category-btn-group">
-                    <div class="category-btn">
-                        <a href="#"></a>
-                        <div class="btn-contain">
+                    <input type="hidden" class="news_cnt" value="1">
+                    <input type="hidden" class="news_status" value="start">
+                    <div class="category-btn">                        
+                        <div class="btn-contain news_alter prev start" data-role="prev">
                             <i class="fa fa-chevron-left" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="category-btn">
-                        <a href="#"></a>
-                        <div class="btn-contain">
+                    <div class="category-btn">                        
+                        <div class="btn-contain news_alter next" data-role="next">
                             <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </div>
                     </div>
@@ -277,60 +298,7 @@ get_header();?>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/co-logo-blue.png" alt="">
             </div>
             <div class="hero-carousel">
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-1.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        中 途<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-2.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-3.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-1.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        中 途<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-2.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-3.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
+                <?php echo do_shortcode('[bottom_carousol]')?>
             </div>
         </section>
     </main>

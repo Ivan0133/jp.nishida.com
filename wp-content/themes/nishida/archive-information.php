@@ -100,60 +100,7 @@ get_header();?>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/co-logo-blue.png" alt="">
             </div>
             <div class="hero-carousel">
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-1.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        中 途<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-2.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-3.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-1.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        中 途<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-2.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
-                <div class="carousel-item">
-                    <div class="badge">
-                        新 卒<br>
-                        採 用
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/person-3.png" alt="">
-                    <div class="person-name">山田　太郎</div>
-                    <div class="course-and-date">部署名テキスト 入社年</div>
-                </div>
+                <?php do_shortcode('[bottom_carousol]')?>
             </div>
         </section>
         <section class="entry container">

@@ -1,23 +1,127 @@
-[12-Jun-2021 11:36:27 UTC] PHP Parse error:  syntax error, unexpected '}' in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 41
-[12-Jun-2021 11:39:41 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
-[12-Jun-2021 11:40:32 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
-[12-Jun-2021 11:40:55 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 45
-[12-Jun-2021 11:45:16 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 15:32:36 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 15:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpb_set_post_views() in D:\project\jp.nishida.com\wp-content\themes\nishida\single-news.php:7
-Stack trace:
-#0 D:\project\jp.nishida.com\wp-includes\template-loader.php(106): include()
-#1 D:\project\jp.nishida.com\wp-blog-header.php(19): require_once('D:\\project\\jp.n...')
-#2 D:\project\jp.nishida.com\index.php(17): require('D:\\project\\jp.n...')
-#3 {main}
-  thrown in D:\project\jp.nishida.com\wp-content\themes\nishida\single-news.php on line 7
-[12-Jun-2021 16:03:34 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:03:54 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:04:46 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:05:30 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:07:38 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:10:19 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 47
-[12-Jun-2021 16:11:29 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
-[12-Jun-2021 16:11:58 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
-[12-Jun-2021 16:17:49 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
-[12-Jun-2021 16:18:21 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:50:51 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:50:52 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:50:53 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:50:55 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:50:57 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:50:58 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:51:00 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:48 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
+[12-Jun-2021 22:51:52 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:54 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:55 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:57 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:51:58 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:52:04 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:52:05 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:52:06 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:52:08 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[12-Jun-2021 22:52:09 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98

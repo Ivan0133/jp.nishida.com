@@ -104,7 +104,7 @@ get_header();?>
                                 新 卒<br>
                                 採 用
                             </p>
-                            <a href="<?php echo get_post_permalink();?>" target="blank">
+                            <a href="<?php echo get_post_permalink();?>">
                                 <figure class="item__img">
                                     <?php echo get_the_post_thumbnail(); ?>
                                 </figure>
