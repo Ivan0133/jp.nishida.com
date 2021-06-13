@@ -1,127 +1,481 @@
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:48 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:50:51 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:50:52 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:50:53 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:50:55 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:50:57 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:50:58 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:51:00 UTC] PHP Warning:  A non-numeric value encountered in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 64
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:48 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 150
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 151
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 183
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Undefined variable: post in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:49 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 184
-[12-Jun-2021 22:51:52 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:54 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:55 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:57 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:51:58 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:52:04 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:52:05 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:52:06 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:52:08 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
-[12-Jun-2021 22:52:09 UTC] PHP Notice:  Undefined variable: status in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 98
+[13-Jun-2021 04:01:09 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:03:01 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:05:23 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:09:52 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:10:06 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:10:21 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:31:01 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:31:06 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 04:32:44 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46

@@ -1,0 +1,245 @@
+<!-- HTMLコード -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>コーディングデータ</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- javascript -->
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img class="pc-logo" src="./assets/img/logo-center.png" alt="">
+                <img class="tb-show" src="./assets/img/favicon.ico" alt="">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-new-info-submenu">新着情報</a>
+                    <div class="new-info-submenu">
+                        <ul>
+                            <li><a href="#">新卒採用</a></li>
+                            <li><a href="#">中途採用</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">採用情報</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;" class="nav-link open-voice-submenu">先輩の声</a>
+                    <div class="voice-submenu">
+                        <ul>
+                            <li><a href="#">新卒入社</a></li>
+                            <li><a href="#">中途入社</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">QA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">募集要項</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">選考フロー</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">お問い合わせ</a>
+                </li>
+                <li class="nav-item--official">
+                    <a href="https://nishidakosan.co.jp/" target="_blank">
+                        <span>OFFICIAL&nbsp;SITE</span>
+                        <img src="./assets/img/official-site.png" alt="">
+                    </a>
+
+                </li>
+                <li class="nav-item--entry">
+                    <a href="#">ENTRY</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="entry-block">
+            <a href="javascript:;" class="entry__close">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="entry__title">
+                <div class="entry__title__en">ENTRY</div>
+                <div class="entry__title__jp">エントリー</div>
+            </div>
+            <div class="entry__content">
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-1.png" alt="">
+                    <div class="entry__content__item__title">新卒採用</div>
+                    <div class="entry__content__item__detail">技術的なことは入社後でかまわない。新しい事に意欲的にチャレンジすれば、仲間と一緒にきっと大きく成長できる。
+                    </div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                        <img src="./assets/img/entry-mark.png" alt="">
+                    </div>
+                </div>
+                <div class="entry__content__item">
+                    <img src="./assets/img/entry/entry-2.png" alt="">
+                    <div class="entry__content__item__title">中途採用</div>
+                    <div class="entry__content__item__detail">これまでの経験や資格を活かし、仕事も家庭も両立することができる。県内の方だけでなくUIJターンも歓迎。</div>
+                    <div class="entry__button">
+                        <a href="#">ENTRY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/facebook-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/twitter-blue.png" alt="">
+                </a>
+            </div>
+            <div class="social__item">
+                <a href="#">
+                    <img src="./assets/img/social/instagram-blue.png" alt="">
+                </a>
+            </div>
+        </div>
+        <section class="entry-form container">
+            <form action="" class="form">
+                <p class="form__title text-en">ENTRY</p>
+                <p class="form__sub__title">中途採用エントリーフォーム</p>
+                <p class="form__intro">必要事項を入力してください。</p>
+                <div class="form__main">
+                    <div class="form__item">
+                        <div class="label">お名前 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">フリガナ <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">メールアドレス <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">電話番号 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">年齢 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <select name="" id="" class="w-50">
+                                <option value="">選択してください</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">希望職種 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <select name="" id="" class="w-50">
+                                <option value="">選択してください</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">最終学歴 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <select name="" id="" class="w-50">
+                                <option value="">選択してください</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">入社希望時期 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">実務経験 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-100">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">履歴書 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="file" class="w-50">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">職務経歴書 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="file" class="w-50">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">面接形式 <span class="badge">必須</span></div>
+                        <div class="form__input">
+                            <input type="text" class="w-50">
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">自己PR</div>
+                        <div class="form__input">
+                            <textarea rows="10" class="w-100"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="label">備考欄</div>
+                        <div class="form__input">
+                            <textarea rows="10" class="w-100"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__item submit">
+                        <p class="submit__comment">□上記の内容でよろしければチェックを入れ、「中途採用ENTRY」を押してください。</p>
+                        <div class="submit__btn">
+                            <button>確認画面へ</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

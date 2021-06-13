@@ -122,6 +122,7 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 add_shortcode('bottom_carousol', 'nsd_render_carousol');
 function nsd_render_carousol(){
+    global $post;
     $the_query = new WP_Query(
         array(
             'post_type' => 'senior',
@@ -189,5 +190,5 @@ function nsd_render_carousol(){
     }
     wp_reset_postdata();
 }
-
+add_filter( "radio_buttons_for_taxonomies_no_term_faq-category", "__return_FALSE" );
 

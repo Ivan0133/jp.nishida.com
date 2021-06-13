@@ -29,8 +29,10 @@
     <header class="header">
         <nav class="navbar">
             <div class="nav-logo">
-                <img class="pc-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-center.png" alt="">
-                <img class="tb-show" src="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" alt="">
+                <a href="<?php echo home_url();?>">
+                    <img class="pc-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-center.png" alt="">
+                    <img class="tb-show" src="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" alt="">
+                </a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -56,13 +58,13 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">QA</a>
+                    <a href="<?php echo home_url() . '/faq'?>" class="nav-link">QA</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">募集要項</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">選考フロー</a>
+                    <a href="<?php echo home_url() . '/selection';?>" class="nav-link">選考フロー</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">お問い合わせ</a>

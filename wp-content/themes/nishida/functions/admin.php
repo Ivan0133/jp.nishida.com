@@ -56,4 +56,30 @@ function nsd_register_custom_posts(){
                             'hierarchical' => true                                       
                         ) 
     );
+    register_post_type( 'faq',
+        array(
+            'labels' => array(
+                'name' => __('Faqs'),
+                'singular_name' => __('faq')
+            ),
+            'rewrite' => array(
+                'slug' => 'faq',
+                'with_front' => true,
+            ),                            
+            'hierarchical' => false,
+            'has_archive' => true,
+            'menu_position' => 5,
+            'public' => true,
+            'publicly_queryable' => true,
+            'query_var' => true,                            
+            'show_ui' => true,
+            "supports" => ['title'],
+        )
+    );
+    register_taxonomy(  'faq-category', 
+        'faq', 
+        array(
+            'hierarchical' => true                                       
+        ) 
+    );
 }
