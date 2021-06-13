@@ -82,4 +82,31 @@ function nsd_register_custom_posts(){
             'hierarchical' => true                                       
         ) 
     );
+    //post - job
+    register_post_type( 'job',
+        array(
+            'labels' => array(
+                'name' => __('Jobs'),
+                'singular_name' => __('job')
+            ),
+            'rewrite' => array(
+                'slug' => 'job',
+                'with_front' => true,
+            ),                            
+            'hierarchical' => false,
+            'has_archive' => true,
+            'menu_position' => 5,
+            'public' => true,
+            'publicly_queryable' => true,
+            'query_var' => true,                            
+            'show_ui' => true,
+            "supports" => ['title'],
+        )
+    );
+    register_taxonomy(  'job-category', 
+        'job', 
+        array(
+            'hierarchical' => true                                       
+        ) 
+    );
 }

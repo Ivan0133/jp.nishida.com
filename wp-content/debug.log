@@ -1,481 +1,169 @@
-[13-Jun-2021 04:01:09 UTC] Array
+[13-Jun-2021 05:09:36 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
             [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 4
+            [count] => 2
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
+            [count] => 0
             [filter] => raw
         )
 
 )
 
-[13-Jun-2021 04:03:01 UTC] Array
+[13-Jun-2021 05:10:14 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
             [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 4
+            [count] => 2
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
+            [count] => 0
             [filter] => raw
         )
 
 )
 
-[13-Jun-2021 04:05:23 UTC] Array
+[13-Jun-2021 05:10:14 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:14 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:14 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:14 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:54 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
             [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 4
+            [count] => 2
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
+            [count] => 0
             [filter] => raw
         )
 
 )
 
-[13-Jun-2021 04:09:52 UTC] Array
+[13-Jun-2021 05:10:54 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:54 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:54 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:10:54 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:11:41 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
             [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 4
+            [count] => 2
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
+            [count] => 0
             [filter] => raw
         )
 
 )
 
-[13-Jun-2021 04:10:06 UTC] Array
+[13-Jun-2021 05:13:57 UTC] PHP Parse error:  syntax error, unexpected '.' in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
+[13-Jun-2021 05:14:09 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
             [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 4
+            [count] => 2
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
             [description] => 
             [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
+            [count] => 0
             [filter] => raw
         )
 
 )
 
-[13-Jun-2021 04:10:21 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
-            [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 4
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 04:31:01 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
-            [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 4
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 04:31:06 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 10
-            [name] => selection
-            [slug] => selection
-            [term_group] => 0
-            [term_taxonomy_id] => 10
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 4
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => treatment
-            [slug] => treatment
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => work
-            [slug] => work
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => company
-            [slug] => company
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => faq-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 04:32:44 UTC] PHP Notice:  Undefined variable: notice in D:\project\jp.nishida.com\wp-content\themes\nishida\functions.php on line 46
