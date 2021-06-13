@@ -1,216 +1,266 @@
-[13-Jun-2021 05:09:36 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 05:10:14 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 05:10:14 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:14 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:14 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:14 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:54 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 05:10:54 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:54 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:54 UTC] PHP Notice:  Undefined variable: pos in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:10:54 UTC] PHP Notice:  Trying to get property 'ID' of non-object in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:11:41 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 05:13:57 UTC] PHP Parse error:  syntax error, unexpected '.' in D:\project\jp.nishida.com\wp-content\themes\nishida\archive-job.php on line 107
-[13-Jun-2021 05:14:09 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 05:14:56 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 15
-            [name] => Job subject 1
-            [slug] => job-subject-1
-            [term_group] => 0
-            [term_taxonomy_id] => 15
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 2
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 16
-            [name] => Job subject 2
-            [slug] => job-subject-2
-            [term_group] => 0
-            [term_taxonomy_id] => 16
-            [taxonomy] => job-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[13-Jun-2021 12:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Avada() in D:\project\jp.nishida.com\wp-content\themes\nishida\single.php:17
+[13-Jun-2021 19:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 19:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 19:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 19:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 19:59:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:71) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:03:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:04:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:04:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:04:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:05:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:05:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:05:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:05:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:05:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:08:07 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in D:\project\jp.nishida.com\wp-content\themes\nishida\page.php on line 2
+[13-Jun-2021 20:08:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contents() in D:\project\jp.nishida.com\wp-content\themes\nishida\page.php:3
 Stack trace:
 #0 D:\project\jp.nishida.com\wp-includes\template-loader.php(106): include()
 #1 D:\project\jp.nishida.com\wp-blog-header.php(19): require_once('D:\\project\\jp.n...')
 #2 D:\project\jp.nishida.com\index.php(17): require('D:\\project\\jp.n...')
 #3 {main}
-  thrown in D:\project\jp.nishida.com\wp-content\themes\nishida\single.php on line 17
-[13-Jun-2021 12:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Avada() in D:\project\jp.nishida.com\wp-content\themes\nishida\single.php:17
-Stack trace:
-#0 D:\project\jp.nishida.com\wp-includes\template-loader.php(106): include()
-#1 D:\project\jp.nishida.com\wp-blog-header.php(19): require_once('D:\\project\\jp.n...')
-#2 D:\project\jp.nishida.com\index.php(17): require('D:\\project\\jp.n...')
-#3 {main}
-  thrown in D:\project\jp.nishida.com\wp-content\themes\nishida\single.php on line 17
-[13-Jun-2021 12:26:05 UTC] PHP Deprecated:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in D:\project\jp.nishida.com\wp-includes\functions.php on line 5061
+  thrown in D:\project\jp.nishida.com\wp-content\themes\nishida\page.php on line 3
+[13-Jun-2021 20:09:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:09:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:09:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\header.php:67) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:10:53 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php on line 5
+[13-Jun-2021 20:11:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:12:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:12:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:12:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:12:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:12:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:12:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:12:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:12:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-admin\admin-header.php on line 9
+[13-Jun-2021 20:12:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:12:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:75) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:17:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:19:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:19:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:19:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:19:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:19:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api\class-wp-rest-server.php on line 1642
+[13-Jun-2021 20:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 675
+[13-Jun-2021 20:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 676
+[13-Jun-2021 20:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 677
+[13-Jun-2021 20:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\project\jp.nishida.com\wp-content\themes\nishida\tpl-news.php:88) in D:\project\jp.nishida.com\wp-includes\rest-api.php on line 678
+[13-Jun-2021 20:20:26 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 20:20:28 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
+            [term_group] => 0
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
+            [term_group] => 0
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
+            [description] => 
+            [parent] => 0
+            [count] => 0
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 20:27:09 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 10
+            [name] => selection
+            [slug] => selection
+            [term_group] => 0
+            [term_taxonomy_id] => 10
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 4
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 11
+            [name] => treatment
+            [slug] => treatment
+            [term_group] => 0
+            [term_taxonomy_id] => 11
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [2] => WP_Term Object
+        (
+            [term_id] => 12
+            [name] => work
+            [slug] => work
+            [term_group] => 0
+            [term_taxonomy_id] => 12
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [3] => WP_Term Object
+        (
+            [term_id] => 13
+            [name] => company
+            [slug] => company
+            [term_group] => 0
+            [term_taxonomy_id] => 13
+            [taxonomy] => faq-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+)
+
+[13-Jun-2021 20:27:13 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 15
+            [name] => Job subject 1
+            [slug] => job-subject-1
+            [term_group] => 0
+            [term_taxonomy_id] => 15
+            [taxonomy] => job-category
+            [description] => 
+            [parent] => 0
+            [count] => 2
+            [filter] => raw
+        )
+
+    [1] => WP_Term Object
+        (
+            [term_id] => 16
+            [name] => Job subject 2
+            [slug] => job-subject-2
+            [term_group] => 0
+            [term_taxonomy_id] => 16
+            [taxonomy] => job-category
+            [description] => 
+            [parent] => 0
+            [count] => 0
+            [filter] => raw
+        )
+
+)
+

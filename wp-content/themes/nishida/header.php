@@ -39,9 +39,9 @@
                     <a href="javascript:;" class="nav-link open-new-info-submenu" >新着情報</a>
                     <div class="new-info-submenu">
                         <ul>
-                            <li><a href="#">新卒採用</a></li>
-                            <li><a href="#">中途採用</a></li>
-                            <li><a href="#">お知らせ</a></li>
+                            <li><a href="<?php echo home_url() . '/new-graduates'?>">新卒採用</a></li>
+                            <li><a href="<?php echo home_url() . '/mid-career'?>">中途採用</a></li>
+                            <li><a href="<?php echo home_url() . '/information'?>">お知らせ</a></li>
                         </ul>
                     </div>
                 </li>
@@ -52,8 +52,8 @@
                     <a href="javascript:;" class="nav-link open-voice-submenu">先輩の声</a>
                     <div class="voice-submenu">
                         <ul>
-                            <li><a href="#">新卒入社</a></li>
-                            <li><a href="#">中途入社</a></li>
+                            <li><a href="<?php echo home_url() . '/senior'?>">新卒入社</a></li>
+                            <li><a href="<?php echo home_url() . '/senior'?>">中途入社</a></li>
                         </ul>
                     </div>
                 </li>
@@ -61,7 +61,7 @@
                     <a href="<?php echo home_url() . '/faq'?>" class="nav-link">QA</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">募集要項</a>
+                    <a href="<?php echo home_url() . '/recuirement'?>" class="nav-link">募集要項</a>
                 </li>
                 <li class="nav-item">
                     <a href="<?php echo home_url() . '/selection';?>" class="nav-link">選考フロー</a>

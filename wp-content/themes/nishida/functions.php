@@ -192,3 +192,27 @@ function nsd_render_carousol(){
 }
 add_filter( "radio_buttons_for_taxonomies_no_term_faq-category", "__return_FALSE" );
 
+add_shortcode( 'display_news_with_cat', 'nsd_display_news_with_category' );
+function nsd_display_news_with_category($atts){
+    global $post;
+    $atts = shortcode_atts( array(
+        'tax' => 'cat_1'
+    ), $atts, 'bartadisplay_news_with_catg' );
+
+    $the_query = new WP_Query(
+        array(
+            'post_type' => 'news',
+            'post_status' => 'publish',
+            'posts_per_page' => -1,
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'category',
+                    'field' => 'name',
+                    'terms' => $atts['tax'],
+                ),
+            ),               
+        )
+    );
+    include 'tpl-news.php';
+
+}
