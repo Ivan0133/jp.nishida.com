@@ -30,7 +30,8 @@
                     <div class="entry__content__item__detail">これまでの経験や資格を活かし、仕事も家庭も両立することができる。県内の方だけでなくUIJターンも歓迎。</div>
                     <div class="entry__button">
                         <a href="#">ENTRY</a>
-                    </div>
+                    </div>   
+                                     
                 </div>
             </div>
         </div>
